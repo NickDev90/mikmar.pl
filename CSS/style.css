@@ -1,0 +1,601 @@
+@import 'font.css';
+
+body {
+	background-color: grey;
+	font-family: 'Open Sans';
+}
+.logo {
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 200px;
+}
+
+ul, li {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+.menu-bar {
+	color: #212121;
+	padding: 20px 0;
+	background-color: #fff;
+}
+.menu__item {
+	margin-left: 35px;
+}
+.menu__item a {
+	font-size: 20px;
+	color: #212121;
+	font-family: 'Open Sans Semibold';
+}
+.menu__item a:hover {
+	text-decoration: none;
+	color: #A0A0A0;
+}
+
+/*Шапка*/
+.header {
+	background-image: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url(../img_ag/partner-ship.jpg);
+	
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: 0 100%;
+	padding: 180px 0;
+	text-align: center;
+	color: white;
+}
+.header__title {
+	font-size: 55px;
+}
+.header__text {
+	font-size: 20px;
+	margin-bottom: 100px;
+}
+.button {
+	padding: 10px 25px;
+	margin: 0 10px;
+	color: white;
+	transition: .2s;
+	background: #00897b;
+	border: 2px solid #00897b;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+.button:hover {
+	background: transparent;
+	border: 2px solid white;
+}
+button:active{
+outline: none;
+border: none;
+border-style: none;
+}
+.button:active{
+outline: none;
+border: none;
+border-style: none;
+}
+
+/*ABOUT US SECTION*/
+.about {
+	color: #212121;
+	background: white;
+	text-align: center;
+	padding-top: 120px;
+	padding-bottom: 100px;
+}
+.about__title {
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 35px;
+}
+.about__text {
+	font-size: 15px;
+	margin-bottom: 110px;
+}
+.about_h3 {
+	font-size: 20px;
+	font-family: 'Open Sans Semibold';
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.card_text {
+	font-size: 15px;
+}
+/*Services*/
+.services {
+	color: #212121;
+	background: #e4fdf9;
+	text-align: center;
+	padding-top: 120px;
+	padding-bottom: 100px;
+}
+.our_card {
+	background: #fff;
+	padding: 50px 35px 40px;
+	text-align: center;
+	transition: .3s;
+	margin-bottom: 30px;
+}
+.our_card:hover {
+	background: #00897b;
+	color: white;
+	box-shadow: 6px 9px 12px -4px rgba(0,0,0,0.42);
+}
+.icon {
+	font-size: 60px;
+	color: #212121;
+	transition: .3s;
+}
+.our_card:hover .icon {
+	color: white;
+}
+.button-services {
+	text-transform: uppercase;
+	padding: 12px;
+	border: 2px solid #000;
+	background: transparent;
+	font-size: 20px;
+	font-family: 'Open Sans Semibold';
+	margin: 40px auto;
+	transition: .3s;
+}
+.our_card:hover .button-services {
+	color: white;
+	border: 2px solid #fff;
+}
+
+/*Portfolio*/
+.portfolio {
+	background: #fff;
+	padding-top: 120px;
+	padding-bottom: 125px;
+}
+.btn-works {
+	text-transform: uppercase;
+	padding: 12px;
+	border: 2px solid #00897b;
+	background: transparent;
+	font-size: 20px;
+	font-family: 'Open Sans Semibold';
+	margin: 40px auto;
+	transition: .3s;
+	margin-right: 20px;
+}
+.btn-works:hover,
+.focused {
+	background: #00897b;
+	color: white;
+}
+.filter {
+	padding: 120px 0;
+}
+.filter img {
+	max-width: 100%;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+.btn-img {
+	padding: 15px 45px;
+	font-family: 'roboto';
+	font-weight: bold;
+	letter-spacing: 0.2em;
+}
+.btn-img:hover,
+.focused_2 {
+	color: black;
+	border: 2px solid #00897b;
+	background: transparent;
+}
+div[filter]:hover img {
+	filter: brightness(50%);
+	transition: .3s;
+}
+.text {
+	display: none;
+}
+div[filter]:hover .text {
+	display: block;
+	width: 100%;
+	color: white;
+	position: absolute;
+	top: 40%;
+	left: 0;
+	text-align: center;
+}
+
+/*PRICING*/
+.pricing {
+	color: #212121;
+	background: #f0f1f1;
+	padding-top: 120px;
+	padding-bottom: 120px;
+	text-align: center;
+}
+.price_card {
+	background: #fff;
+	height: 650px;
+	transition: .3s;
+	margin-bottom: 20px;
+}
+.price_card:hover {
+	box-shadow: 0px 11px 30px -5px rgba(0,0,0,0.77);
+}
+.price_head {
+	color: white;
+	background-image: url(../IMG/price-bg.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 200px;
+	padding-top: 40px;
+	padding-bottom: 55px;
+	font-size: 50px;
+}
+.price_head p {
+	font-size: 25px;
+}
+.price_head sup {
+	font-size: 25px;
+	vertical-align: middle;
+}
+.price_head sub {
+	font-size: 17px;
+	vertical-align: middle;
+}
+.price_body {
+	max-width: 180px;
+	margin: 0 auto;
+	font-size: 17px;
+	padding-top: 40px;
+}
+.price_footer button {
+	background: transparent;
+	border: 2px solid black;
+	padding: 15px 20px ;
+	font-size: 20px;
+	font-family: 'Open Sans Semibold';
+	margin-top: 50px;
+	width: 180px;
+	transition: .3s;
+}
+.price_footer button:hover {
+	background: #00897b;
+	color: #fff;
+	text-transform: uppercase;
+	border: none;
+}
+
+/*TEAM*/
+.team {
+	color: #212121;
+	background: #fff;
+	padding-top: 120px;
+	padding-bottom: 120px;
+	text-align: center;
+}
+.slick-slide {
+	outline: none;
+	border: none;
+}
+.member_card {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.photo img {
+	max-width: 220px;
+	margin: 0 auto;
+
+}
+.member_card h5 {
+	font-size: 20px;
+	margin-top: 35px;
+	margin-bottom: 15px;
+}
+.member_card p {
+	font-size: 15px;
+	margin-bottom: 30px;
+}
+.social-icons {
+	font-size: 30px;
+	color: #00897b;
+	max-width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.social-icons a {
+	text-decoration: none;
+	margin: 0 5px;
+}
+.social-icons i {
+	background: #f0f1f1;
+	padding: 10px;
+	border-radius: 10px;
+	color: #00897b;
+	transition: .3s;
+}
+.social-icons i:hover {
+	background: #3949ab;
+	color: #fff;
+}
+
+.dots-style {
+	margin-top: 115px;
+	display: flex;
+	justify-content: center;
+}
+.dots-style button {
+	background: #00897b;
+	border: none;
+	border-radius: 50%;
+	font-size: 0;
+	height: 15px;
+	width: 15px;
+	margin: 5px;
+	text-decoration: none;
+	transition: .3s;
+}
+.dots-style li [class="slick-active"] button  {
+	background: #3949ab;
+}
+
+/*BLOG*/
+.blog {
+	color: #212121;
+	background: #e4fdf9;
+	padding-top: 120px;
+	padding-bottom: 120px;
+	text-align: center;
+}
+.blog_text {
+	padding-top: 50px;
+	color: #212121;
+}
+.blog_text span {
+	margin-right: 30px;
+}
+.blog_text i {
+	margin-right: 8px;
+}
+.blog_text a {
+	text-decoration: none;
+	color: #212121;
+	font-size: 25px;
+}
+.blog_text a:hover {
+	color: #00897b;
+}
+.date {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-size: 17px;
+	font-weight: 500;
+
+} 
+.blog_about {
+	font-size: 15px;
+}
+.blog img {
+	max-width: 100%;
+}
+.blog_button {
+	margin-top: 120px;
+	font-weight: 500;
+	padding: 10px 25px;
+	color: white;
+	transition: .2s;
+	background: #00897b;
+	border: 2px solid #00897b;
+	cursor: pointer;
+	font-family: 'roboto';
+	text-transform: uppercase;
+	font-size: 20px;
+}
+.blog_button:hover {
+	color: black;
+	border: 2px solid #00897b;
+	background: transparent;
+}
+
+.footer {
+	color: #fff;
+	background-image: url(../IMG/footer.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: 0 0;
+	padding-top: 120px;
+	padding-bottom: 120px;
+	text-align: center;
+
+}
+.footer_icon {
+	margin-bottom: 30px;
+}
+.icon_text {
+	font-size: 20px;
+	margin-bottom: 75px;
+}
+
+.footer input {
+	padding: 25px;
+	width: 100%;
+	font-size: 20px;
+	font-weight: 500;
+	border: none;
+	border-radius: 10px;
+	margin: 0 auto;
+}
+.footer textarea {
+	width: 100%;
+	height: 300px;
+	resize: none;
+	font-size: 20px;
+	font-weight: 500;
+	padding: 25px;border: none;
+	border-radius: 10px;
+	margin-top: 30px;
+}
+.footer input:focus,
+.footer textarea:focus {
+	outline: none;
+}
+/*.inputs {
+	width: 100%;
+}*/
+
+.rules {
+	font-size: 20px;
+	text-align: center;
+	padding: 20px 0;
+	font-weight: 600;
+	background: #fff;
+}
+.form_button {
+	color: #212121;
+	background: #fff;
+	cursor: pointer;
+	font-family: 'roboto';
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: .2em;
+	border: none;
+	border-radius: 10px;
+	padding: 25px;
+	margin-top: 30px;
+	transition: .3s;
+	outline: none;
+}
+.form_button:hover {
+	opacity: .5;
+
+}
+#toTop {
+	z-index: 999;
+	width: 40px;
+	height: 40px;
+	border: none;
+	font-size: 20px;
+	border-radius: 3px;
+	text-align: center;
+	padding: 5px;
+	background: #00897b;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	cursor: pointer;
+	display: none;
+	color: #000;
+}
+.menu-icon {
+	display: none;
+}
+
+@media screen and (max-width: 1024px) {
+
+	nav {
+		display: none;
+	}
+	.logo_bar {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.menu-icon {
+		display: block;
+		background: #00897b;
+		border: none;
+		font-size: 25px;
+		width: 50px;
+		height: 50px;
+		cursor: pointer;
+		outline: none;
+		color: white;
+	}
+	.blog_text {
+	padding-top: 10px;
+	}
+	.footer input,
+	.footer textarea {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.form_button {
+		text-align: center;
+		max-width: 40%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	nav {
+		margin-top: 20px;
+	}
+	.header {
+		padding: 20px;
+	}
+	.header__title {
+		font-size: 45px;
+		margin-top: 50px;
+		margin-bottom: 20px;
+	}
+	.header button {
+		margin-bottom: 20px;
+		width: 60%;
+	}
+	.about {
+		padding: 20px;
+	}
+	.about__text {
+		margin-bottom: 20px;
+	}
+	.services {
+		padding: 20px;
+	}
+	.about__title {
+		margin-bottom: 20px;
+	}
+	.portfolio, .filter {
+		padding: 20px;
+	}
+	.btn-works {
+		margin: 10px auto;
+	}
+	.pricing {
+		padding: 20px;
+	}
+	.pricing hr {
+		display: none;
+	}
+	.team {
+		padding: 20px;
+	}
+	.team img {
+		max-width: 90%;
+	}
+	.blog {
+		padding: 20px;
+	}
+	.blog img {
+		margin-bottom: 20px;
+	}
+	.dots-style {
+		margin-top: 35px;
+	}
+	.blog_button {
+		margin-top: 30px;
+	}
+	.must-change>div:first-child {
+		order: 2;
+	}
+	.footer {
+		padding: 20px;
+	}
+	.footer form {
+		margin-top: 20px;
+	}
+	.rules {
+		padding: 10px;
+	}
+}
