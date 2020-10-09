@@ -30,6 +30,7 @@ ul, li {
 }
 .menu__item {
 	margin-left: 35px;
+/*	color: #fff;*/
 }
 .menu__item a {
 	font-size: 20px;
