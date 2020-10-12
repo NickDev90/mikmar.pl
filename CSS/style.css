@@ -95,8 +95,8 @@ border-style: none;
 	color: #212121;
 	background: white;
 	text-align: center;
-	padding-top: 120px;
-	padding-bottom: 100px;
+	padding-top: 80px;
+	padding-bottom: 50px;
 }
 .about__title {
 	font-size: 36px;
@@ -106,7 +106,7 @@ border-style: none;
 }
 .about__subtitle {
 	font-size: 16px;
-	margin-bottom: 110px;
+	margin-bottom: 70px;
 }
 .about_h3 {
 	font-size: 20px;
@@ -123,6 +123,10 @@ border-style: none;
 }
 .about_img {
 	max-height: 100%;
+	max-width: 100%;
+}
+.about_img img {
+	max-width: 100%;
 }
 .about_content {
 	padding: 0;
@@ -141,13 +145,21 @@ border-style: none;
 	color: #212121;
 	background: white;
 	text-align: center;
-	padding-top: 120px;
-	padding-bottom: 100px;
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+.offer__title {
+	font-size: 1.6rem;
+	margin: 20px auto;
+	color: #34495E;
+	font-weight: 600;
 }
 .offer__img {
-	max-width: 100px;
+	max-width: 110px;
 }
-
+.offer__text {
+	text-align: justify;
+}
 /*Services*/
 .services {
 	color: #212121;
