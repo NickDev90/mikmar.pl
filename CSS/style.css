@@ -70,14 +70,16 @@ ul, li {
 	margin: 0 10px;
 	color: white;
 	transition: .2s;
-	background: #00897b;
-	border: 2px solid #00897b;
+	background: #3045A5;
+	opacity: .8;
+	border: 2px solid #3045A5;
 	cursor: pointer;
 	text-transform: uppercase;
 }
 .button:hover {
 	background: transparent;
 	border: 2px solid white;
+	opacity: 1;
 }
 button:active{
 outline: none;
@@ -99,14 +101,17 @@ border-style: none;
 	padding-bottom: 50px;
 }
 .about__title {
-	font-size: 36px;
+	font-size: 46px;
+	color: #3045A5;
 	font-weight: bold;
 	margin-bottom: 20px;
-	text-shadow: 5px 1px 7px rgba(0,0,0,0.3);
+	/*text-shadow: 5px 1px 7px rgba(0,0,0,0.3);*/
 }
 .about__subtitle {
-	font-size: 16px;
+	font-size: 22px;
 	margin-bottom: 70px;
+	font-style: initial;
+
 }
 .about_h3 {
 	font-size: 20px;
@@ -151,7 +156,7 @@ border-style: none;
 .offer__title {
 	font-size: 1.6rem;
 	margin: 20px auto;
-	color: #34495E;
+	color: #02BFFE;
 	font-weight: 600;
 }
 .offer__img {
