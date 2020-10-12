@@ -99,12 +99,13 @@ border-style: none;
 	padding-bottom: 100px;
 }
 .about__title {
-	font-size: 30px;
+	font-size: 36px;
 	font-weight: bold;
-	margin-bottom: 35px;
+	margin-bottom: 20px;
+	text-shadow: 5px 1px 7px rgba(0,0,0,0.3);
 }
-.about__text {
-	font-size: 15px;
+.about__subtitle {
+	font-size: 16px;
 	margin-bottom: 110px;
 }
 .about_h3 {
@@ -113,9 +114,40 @@ border-style: none;
 	margin-top: 30px;
 	margin-bottom: 20px;
 }
+.about_content_text {
+	font-size: 18px;
+	text-align: justify;
+	color: #34495E;
+	line-height: 180%;
+	margin-top: 0;
+}
+.about_img {
+	max-height: 100%;
+}
+.about_content {
+	padding: 0;
+	align-items: center;
+}
+.about__text {
+	font-size: 15px;
+	margin-bottom: 110px;
+}
 .card_text {
 	font-size: 15px;
 }
+
+/* OFFERS */
+.offers {
+	color: #212121;
+	background: white;
+	text-align: center;
+	padding-top: 120px;
+	padding-bottom: 100px;
+}
+.offer__img {
+	max-width: 100px;
+}
+
 /*Services*/
 .services {
 	color: #212121;
