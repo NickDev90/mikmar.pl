@@ -179,6 +179,7 @@ border-style: none;
 	text-align: center;
 	transition: .3s;
 	margin-bottom: 30px;
+	height: 90%;
 }
 .our_card:hover {
 	background: #00897b;
