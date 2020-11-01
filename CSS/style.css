@@ -131,7 +131,8 @@ border-style: none;
 	max-width: 100%;
 }
 .about_img img {
-	max-width: 100%;
+	width: 100%;
+/*	object-fit: none;*/
 }
 .about_content {
 	padding: 0;
@@ -273,7 +274,7 @@ div[filter]:hover .text {
 	color: #212121;
 	background: #f0f1f1;
 	padding-top: 120px;
-	padding-bottom: 120px;
+	padding-bottom: 80px;
 	text-align: center;
 }
 .price_card {
@@ -409,7 +410,7 @@ div[filter]:hover .text {
 .blog {
 	color: #212121;
 	background: #e4fdf9;
-	padding-top: 120px;
+	padding-top: 60px;
 	padding-bottom: 120px;
 	text-align: center;
 }
@@ -545,7 +546,7 @@ div[filter]:hover .text {
 	border-radius: 3px;
 	text-align: center;
 	padding: 5px;
-	background: #00897b;
+	background: #3045A5;
 	position: fixed;
 	bottom: 10px;
 	right: 10px;
@@ -557,7 +558,11 @@ div[filter]:hover .text {
 	display: none;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 991px) {
+	.header {
+		background-size: cover;
+		background-position: center;
+	}
 
 	nav {
 		display: none;
@@ -569,7 +574,7 @@ div[filter]:hover .text {
 	}
 	.menu-icon {
 		display: block;
-		background: #00897b;
+		background: #3045A5;
 		border: none;
 		font-size: 25px;
 		width: 50px;
@@ -577,6 +582,10 @@ div[filter]:hover .text {
 		cursor: pointer;
 		outline: none;
 		color: white;
+		outline: none;
+	}
+	.menu-icon:focus {
+		outline: none;
 	}
 	.blog_text {
 	padding-top: 10px;

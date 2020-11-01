@@ -1,5 +1,4 @@
 $(document).ready(function () {
-	// body...
 	$('.btn-works[filter="web"]').click(function() {
 		if ($(this).attr('val')=='off') {
 			$('.btn-works[filter]').attr('val', 'off');
@@ -142,6 +141,15 @@ $(document).ready(function () {
 			$(this).html('<i class="fas fa-bars"></i>')
 		}
 	});
+
+	// Удаляем revealator классы на маленьких экранах
+	if (window.screen.width < 768) {
+		$('#offers_list').removeClass('revealator-slideup revealator-once');
+	};
+
+	if (window.screen.width < 480) {
+		$('.revealator-once').removeClass('revealator-slideright revealator-slideleft revealator-once');
+	}
 
 
 });
