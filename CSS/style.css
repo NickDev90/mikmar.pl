@@ -562,12 +562,14 @@ div[filter]:hover .text {
 	.header {
 		background-size: cover;
 		background-position: center;
+		/*height: auto;*/
 	}
 
 	nav {
 		display: none;
 	}
 	.logo_bar {
+		width: 100%;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
@@ -614,9 +616,15 @@ div[filter]:hover .text {
 		margin-top: 50px;
 		margin-bottom: 20px;
 	}
-	.header button {
-		margin-bottom: 20px;
-		width: 60%;
+
+	.main_text {
+		
+
+	}
+	.main_text button {
+		/*margin-bottom: 20px;
+		width: 60%;*/
+		display: none;
 	}
 	.about {
 		padding: 20px;
