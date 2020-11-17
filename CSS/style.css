@@ -169,7 +169,7 @@ border-style: none;
 /*Services*/
 .services {
 	color: #212121;
-	background: #e4fdf9;
+	background: #DFF4FF;
 	text-align: center;
 	padding-top: 120px;
 	padding-bottom: 100px;
@@ -183,7 +183,7 @@ border-style: none;
 	height: 90%;
 }
 .our_card:hover {
-	background: #00897b;
+	background: #3045A5;
 	color: white;
 	box-shadow: 6px 9px 12px -4px rgba(0,0,0,0.42);
 }
@@ -269,147 +269,10 @@ div[filter]:hover .text {
 	text-align: center;
 }
 
-/*PRICING*/
-.pricing {
-	color: #212121;
-	background: #f0f1f1;
-	padding-top: 120px;
-	padding-bottom: 80px;
-	text-align: center;
-}
-.price_card {
-	background: #fff;
-	height: 650px;
-	transition: .3s;
-	margin-bottom: 20px;
-}
-.price_card:hover {
-	box-shadow: 0px 11px 30px -5px rgba(0,0,0,0.77);
-}
-.price_head {
-	color: white;
-	background-image: url(../IMG/price-bg.png);
-	-webkit-background-size: cover;
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 200px;
-	padding-top: 40px;
-	padding-bottom: 55px;
-	font-size: 50px;
-}
-.price_head p {
-	font-size: 25px;
-}
-.price_head sup {
-	font-size: 25px;
-	vertical-align: middle;
-}
-.price_head sub {
-	font-size: 17px;
-	vertical-align: middle;
-}
-.price_body {
-	max-width: 180px;
-	margin: 0 auto;
-	font-size: 17px;
-	padding-top: 40px;
-}
-.price_footer button {
-	background: transparent;
-	border: 2px solid black;
-	padding: 15px 20px ;
-	font-size: 20px;
-	font-family: 'Open Sans Semibold';
-	margin-top: 50px;
-	width: 180px;
-	transition: .3s;
-}
-.price_footer button:hover {
-	background: #00897b;
-	color: #fff;
-	text-transform: uppercase;
-	border: none;
-}
-
-/*TEAM*/
-.team {
-	color: #212121;
-	background: #fff;
-	padding-top: 120px;
-	padding-bottom: 120px;
-	text-align: center;
-}
-.slick-slide {
-	outline: none;
-	border: none;
-}
-.member_card {
-	text-align: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
-.photo img {
-	max-width: 220px;
-	margin: 0 auto;
-
-}
-.member_card h5 {
-	font-size: 20px;
-	margin-top: 35px;
-	margin-bottom: 15px;
-}
-.member_card p {
-	font-size: 15px;
-	margin-bottom: 30px;
-}
-.social-icons {
-	font-size: 30px;
-	color: #00897b;
-	max-width: 100%;
-	display: flex;
-	justify-content: center;
-}
-.social-icons a {
-	text-decoration: none;
-	margin: 0 5px;
-}
-.social-icons i {
-	background: #f0f1f1;
-	padding: 10px;
-	border-radius: 10px;
-	color: #00897b;
-	transition: .3s;
-}
-.social-icons i:hover {
-	background: #3949ab;
-	color: #fff;
-}
-
-.dots-style {
-	margin-top: 115px;
-	display: flex;
-	justify-content: center;
-}
-.dots-style button {
-	background: #00897b;
-	border: none;
-	border-radius: 50%;
-	font-size: 0;
-	height: 15px;
-	width: 15px;
-	margin: 5px;
-	text-decoration: none;
-	transition: .3s;
-}
-.dots-style li [class="slick-active"] button  {
-	background: #3949ab;
-}
-
 /*BLOG*/
 .blog {
 	color: #212121;
-	background: #e4fdf9;
+	background: #DFF4FF;
 	padding-top: 60px;
 	padding-bottom: 120px;
 	text-align: center;
@@ -430,7 +293,7 @@ div[filter]:hover .text {
 	font-size: 25px;
 }
 .blog_text a:hover {
-	color: #00897b;
+	color: #3045A5;
 }
 .date {
 	margin-top: 25px;
@@ -451,8 +314,8 @@ div[filter]:hover .text {
 	padding: 10px 25px;
 	color: white;
 	transition: .2s;
-	background: #00897b;
-	border: 2px solid #00897b;
+	background: #3045A5;
+	border: 2px solid #3045A5;
 	cursor: pointer;
 	font-family: 'roboto';
 	text-transform: uppercase;
@@ -460,7 +323,7 @@ div[filter]:hover .text {
 }
 .blog_button:hover {
 	color: black;
-	border: 2px solid #00897b;
+	border: 2px solid #3045A5;
 	background: transparent;
 }
 

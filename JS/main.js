@@ -143,7 +143,7 @@ $(document).ready(function () {
 	});
 
 	// Удаляем revealator классы на маленьких экранах
-	if (window.screen.width < 768) {
+	if (window.screen.width <= 768) {
 		$('#offers_list').removeClass('revealator-slideup revealator-once');
 	};
 
