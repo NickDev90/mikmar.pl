@@ -6,8 +6,8 @@ body {
 }
 .logo {
 	/*background-color: rgba(0, 0, 0, 0.8);*/
-	width: 200px;
-	height: 100px;
+	/*width: 200px;*/
+	
 
 }
 
@@ -25,7 +25,7 @@ ul, li {
 .menu-bar {
 	color: #212121;
 	/*padding: 20px 0;*/
-/*	background-color: #fff;*/
+/*	background-color: #fff;*/	
 
 }
 .menu__item {
@@ -71,7 +71,7 @@ ul, li {
 	color: white;
 	transition: .2s;
 	background: #3045A5;
-	opacity: .8;
+	opacity: .6;
 	border: 2px solid #3045A5;
 	cursor: pointer;
 	text-transform: uppercase;
@@ -336,8 +336,8 @@ div[filter]:hover .text {
 	padding-top: 120px;
 	padding-bottom: 120px;
 	text-align: center;
-
 }
+
 .footer_icon {
 	margin-bottom: 30px;
 }
@@ -391,7 +391,7 @@ div[filter]:hover .text {
 	letter-spacing: .2em;
 	border: none;
 	border-radius: 10px;
-	padding: 25px;
+	padding: 15px;
 	margin-top: 30px;
 	transition: .3s;
 	outline: none;
@@ -421,11 +421,15 @@ div[filter]:hover .text {
 	display: none;
 }
 
+
+
+
 @media screen and (max-width: 991px) {
 	.header {
 		background-size: cover;
 		background-position: center;
 		/*height: auto;*/
+
 	}
 
 	nav {
@@ -439,19 +443,30 @@ div[filter]:hover .text {
 	}
 	.menu-icon {
 		display: block;
-		background: #3045A5;
+		background: transparent;
 		border: none;
-		font-size: 25px;
-		width: 50px;
-		height: 50px;
+		font-size: 35px;
+		width: 70px;
+		height: 70px;
 		cursor: pointer;
 		outline: none;
 		color: white;
 		outline: none;
 	}
+	.menu-icon:hover {
+		color: #A0A0A0;
+	}
+	
 	.menu-icon:focus {
 		outline: none;
 	}
+	.menu__item {
+		margin-bottom: 20px;
+	}
+	.menu__item a {
+		font-size: 22px;
+	}
+
 	.blog_text {
 	padding-top: 10px;
 	}
@@ -470,9 +485,10 @@ div[filter]:hover .text {
 @media screen and (max-width: 480px) {
 	nav {
 		margin-top: 20px;
+		margin-bottom: -200px;
 	}
 	.header {
-		padding: 20px;
+		/*padding: 20px;*/
 	}
 	.header__title {
 		font-size: 45px;
@@ -494,6 +510,12 @@ div[filter]:hover .text {
 	}
 	.about__text {
 		margin-bottom: 20px;
+	}
+	.offers {
+		padding-bottom: 0;
+	}
+	.offer__card {
+		margin-bottom: 30px;
 	}
 	.services {
 		padding: 20px;

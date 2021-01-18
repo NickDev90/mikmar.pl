@@ -94,7 +94,7 @@ $(document).ready(function () {
 
 
 
-// М Е Н Ю 
+// М Е Н Ю  
 
 	$('ul.menu a[href^="#"').click(function () {
 		// body...
@@ -133,7 +133,7 @@ $(document).ready(function () {
 	$('.menu-icon').click(function(){
 		$('nav').slideToggle(300);
 		$('ul.menu').css({
-			'display':'flex', 'flex-direction':'column'
+			'display':'flex', 'flex-direction':'column', 'height':'100%'
 		});
 		if ($('.menu-icon').html()=='<i class="fas fa-bars"></i>') {
 			$(this).html('<i class="fas fa-times"></i>')
