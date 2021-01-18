@@ -490,6 +490,19 @@ div[filter]:hover .text {
 	.header {
 		/*padding: 20px;*/
 	}
+
+	.logo {
+		height: 50px;
+	}
+
+	nav .menu {
+		text-align: center;
+	}
+
+	.menu__item {
+		margin-left: 0;
+	}
+	
 	.header__title {
 		font-size: 45px;
 		margin-top: 50px;
